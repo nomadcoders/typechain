@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Learning Typescript by making a Blockchain with it",
   "main": "index.js",
-  "repository": "https://github.com/nomadcoders/typechain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomadcoders/typechain.git"
+  },
   "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -14,5 +17,10 @@
   },
   "dependencies": {
     "crypto-js": "^3.1.9-1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/nomadcoders/typechain/issues"
+  },
+  "homepage": "https://github.com/nomadcoders/typechain#readme",
+  "keywords": []
 }
